@@ -11,6 +11,9 @@ Zunächst wurden alle Räume, Zuordnungen und Ausstattungen festgehalten und ein
 
 
 
+
+Draft von "alle Räume":
+
 Gebäude A
 
 im Erdgeschoss 
