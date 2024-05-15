@@ -11,11 +11,9 @@ Zunächst wurden alle Räume, Zuordnungen und Ausstattungen festgehalten und ein
 
 
 
-
 Draft von "alle Räume":
 
 Gebäude A
-
 im Erdgeschoss 
 
 Raum 0000 - Büroraum - barrierefrei - 1 Sitzplatz, 1 Tisch, 2 Monitore, 1 Locker
