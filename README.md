@@ -1,9 +1,13 @@
-Dieses Tool dient der Buchung eines Raumes für Mitarbeitende einer Firma. 
-Das Endziel des Programms soll sein, dass anhand seiner Anforderungen an den Arbeitsplatz der Mitarbeiter einen freien Platz nach 
-dessen Ausstattungs-, Zugangswünschen und Zeiten buchen können. Zusätzlich soll es ein System geben, wo der Mitarbeiter nach seiner Rolle jeweils Zugriffsrechte auf 
-Zum Schuss soll er ausschließlich ein
+Beschreibung, Informationen und Zielsetzung
+
+Dieses Tool dient der Buchung eines Raumes für die Mitarbeitenden einer Firma. 
+Das Endziel des Programms soll sein, dass anhand seiner Anforderungen an den Arbeitsplatz ein Mitarbeiter einen freien Platz nach 
+dessen Ausstattungs-, Zugangswünschen und Zeiten buchen kann.
+Zum Schluss soll er eine Dokument ausgestellt bekommen, wo seine gebuchte Raumnummer draufsteht. Mit dieser erhät er an der Rezeption den Schlüssel zum Raum.
 
 Zunächst wurden alle Räume, Zuordnungen und Ausstattungen festgehalten und ein UML-Diagram wurde erstellt.
+
+
 
 Gebäude A
 
