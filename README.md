@@ -23,7 +23,7 @@ Es hat als Attribute eine Liste von Räumen.
 Dessen Methoden sind hinzufuegenRaum(const Raum&). Es fügt einen Raum zur Liste hinzu.
 Dann gibt es findeFreienRaum(std::string typ, bool barrierefrei, std::string datum). Diese Methode durchsucht die verfügbaren Räume und gibt den ersten Raum zurück, der den spezifizierten Kriterien entspricht (Raumtyp, Barrierefreiheit, Verfügbarkeit am angegebenen Datum).
 
-Die main-Funktion) erstellt für ein erstes Beispiel zwei Raumobjekte raum1 und raum2 mit spezifischen Eigenschaften.
+Die main-Funktion erstellt für ein erstes Beispiel zwei Raumobjekte raum1 und raum2 mit spezifischen Eigenschaften.
 Dann wird Buchungssystem und fügt die erstellten Räume hinzu.
 Es versucht, einen Raum zu finden, der den gegebenen Kriterien entspricht, und bucht ihn, falls verfügbar. Zum Schluss wird eine Meldung ausgegeben, ob der Raum gebucht wurde oder nicht.
 
