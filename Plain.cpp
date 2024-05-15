@@ -8,11 +8,11 @@ public:
     std::string raumnummer;
     std::string typ;
     bool barrierefrei;
-    std::vector<std::string> ausruestung;
-    std::map<std::string, bool> verfuegbarkeit;  // Datum als Schlüssel, Verfügbarkeit als Wert
+    std::vector <std::string> ausruestung;
+    std::map <std::string, bool> verfuegbarkeit;  
+//* Datum als Schlüssel, Verfügbarkeit als Wert*//
 
-    Raum(std::string nummer, std::string t, bool barrierefrei, std::vector<std::string> ausr) 
-        : raumnummer(nummer), typ(t), barrierefrei(barrierefrei), ausruestung(ausr) {}
+    Raum(std::string nummer, std::string t, bool barrierefrei, std::vector<std::string> ausr): raumnummer(nummer), typ(t), barrierefrei(barrierefrei), ausruestung(ausr) {}
 
     void zeigeDetails() {
         std::cout << "Raumnummer: " << raumnummer << ", Typ: " << typ << ", Barrierefrei: " << (barrierefrei ? "Ja" : "Nein")   << std::endl;
@@ -54,16 +54,16 @@ public:
 };
 
 int main() {
-    // Beispielräume erstellen
+    // *Beispielräume erstellen*//
     Raum raum1("0000", "Büroraum", true, {"1 Sitzplatz", "1 Tisch", "2 Monitore", "1 Locker"});
     Raum raum2("0001", "Konferenzraum", true, {"20 Sitzplätze", "20 Tische", "1 Beamer", "2 Lautsprecher"});
 
-    // Buchungssystem initialisieren und Räume hinzufügen
+    // *Buchungssystem initialisieren und Räume hinzufügen*//
     Buchungssystem system;
     system.hinzufuegenRaum(raum1);
     system.hinzufuegenRaum(raum2);
 
-    // Suche nach einem freien Raum und buche ihn
+    //* Suche nach einem freien Raum und buche ihn'//
     Raum* gebuchterRaum = system.findeFreienRaum("Büroraum", true, "2024-05-20");
     if (gebuchterRaum != nullptr) {
         gebuchterRaum->bucheRaum("2024-05-20");
