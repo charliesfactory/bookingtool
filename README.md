@@ -1,4 +1,4 @@
-Beschreibung, Informationen und Zielsetzung
+# Beschreibung, Informationen und Zielsetzung
 
 Dieses Tool dient der Buchung eines Raumes für die Mitarbeitenden einer Firma. 
 Das Endziel des Programms soll sein, dass anhand seiner Anforderungen an den Arbeitsplatz ein Mitarbeiter einen freien Platz nach 
@@ -34,15 +34,11 @@ Gebäude A
 
 im Erdgeschoss 
 
-Raum 0000 - Büroraum - barrierefrei - 1 Sitzplatz, 1 Tisch, 2 Monitore, 1 Locker
-
-Raum 0001 - Büroraum - barrierefrei - 2 Sitzplätze, 2 Tische, 4 Monitore, 2 Locker
-
-Raum 0002 - Büroraum - barrierefrei - 3 Sitzplätze, 3 Tische, 6 Monitore, 3 Locker
-
-Raum 0003 - Büroraum - barrierefei - 4 Sitzplätze, 4 Stühle, 8 Monitore, 4 Locker
-
-Raum 0004 - Konferenzraum - barrierefei - 20 Sitzplätze, 20 Tische, 1 Beamer, 2 Lautsprecher
+- Raum 0000 - Büroraum - barrierefrei - 1 Sitzplatz, 1 Tisch, 2 Monitore, 1 Locker
+- Raum 0001 - Büroraum - barrierefrei - 2 Sitzplätze, 2 Tische, 4 Monitore, 2 Locker
+- Raum 0002 - Büroraum - barrierefrei - 3 Sitzplätze, 3 Tische, 6 Monitore, 3 Locker
+- Raum 0003 - Büroraum - barrierefei - 4 Sitzplätze, 4 Stühle, 8 Monitore, 4 Locker
+- Raum 0004 - Konferenzraum - barrierefei - 20 Sitzplätze, 20 Tische, 1 Beamer, 2 Lautsprecher
 
 Raum 0005 - Küche - Kaffeemaschine, Wasserkocher, Waschbecken, Herd
 
