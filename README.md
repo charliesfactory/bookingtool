@@ -3,7 +3,9 @@ Beschreibung, Informationen und Zielsetzung
 Dieses Tool dient der Buchung eines Raumes für die Mitarbeitenden einer Firma. 
 Das Endziel des Programms soll sein, dass anhand seiner Anforderungen an den Arbeitsplatz ein Mitarbeiter einen freien Platz nach 
 dessen Ausstattungs-, Zugangswünschen und Zeiten buchen kann.
-Zum Schluss soll er eine Dokument ausgestellt bekommen, wo seine gebuchte Raumnummer draufsteht. Mit dieser erhät er an der Rezeption den Schlüssel zum Raum.
+Zum Schluss soll er eine Dokument ausgestellt bekommen, wo seine gebuchte Raumnummer draufsteht. Mit dieser erhält er an der Rezeption den Schlüssel zum Raum.
+Weitere Ideen: Usermanagement anschließen, wobei verschiedene Rollen (zB. Hausmeister, Admin, Teamlead, Mitarbeiter, Werkstudent) Zugriffsoptionen auf Räume haben (zB. nur Teamlead kann
+Koferenzraum buchen).
 
 Zunächst wurden alle Räume, Zuordnungen und Ausstattungen festgehalten und ein UML-Diagram wurde erstellt.
 
