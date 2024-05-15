@@ -56,16 +56,16 @@ public:
 };
 
 int main() {
-    // Beispielräume erstellen
+    //* Beispielräume erstellen*//
     Raum raum1("0000", "Büroraum", true, {"1 Sitzplatz", "1 Tisch", "2 Monitore", "1 Locker"});
     Raum raum2("0001", "Konferenzraum", true, {"20 Sitzplätze", "20 Tische", "1 Beamer", "2 Lautsprecher"});
 
-    // Buchungssystem initialisieren und Räume hinzufügen
+    // *Buchungssystem initialisieren und Räume hinzufügen*//
     Buchungssystem system;
     system.hinzufuegenRaum(raum1);
     system.hinzufuegenRaum(raum2);
 
-    // Suche nach einem freien Raum und buche ihn
+    //* Suche nach einem freien Raum und buche ihn*//
     Raum* gebuchterRaum = system.findeFreienRaum("Büroraum", true, "2024-05-20");
     if (gebuchterRaum != nullptr) {
         gebuchterRaum->bucheRaum("2024-05-20");
