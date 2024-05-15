@@ -5,7 +5,7 @@ dessen Ausstattungs-, Zugangswünschen und Zeiten buchen können.
 Zunächst wurden alle Räume, Zuordnungen und Ausstattungen festgehalten. 
 
 Gebäude A
-im Erdgeschoss
+im Erdgeschoss 
 Raum 0000 - Büroraum - barrierefrei - 1 Sitzplatz, 1 Tisch, 2 Monitore, 1 Locker
 Raum 0001 - Büroraum - barrierefrei - 2 Sitzplätze, 2 Tische, 4 Monitore, 2 Locker
 Raum 0002 - Büroraum - barrierefrei - 3 Sitzplätze, 3 Tische, 6 Monitore, 3 Locker
