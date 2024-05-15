@@ -4,14 +4,28 @@ Dieses Tool dient der Buchung eines Raumes für die Mitarbeitenden einer Firma.
 Das Endziel des Programms soll sein, dass anhand seiner Anforderungen an den Arbeitsplatz ein Mitarbeiter einen freien Platz nach 
 dessen Ausstattungs-, Zugangswünschen und Zeiten buchen kann.
 Zum Schluss soll er eine Dokument ausgestellt bekommen, wo seine gebuchte Raumnummer draufsteht. Mit dieser erhält er an der Rezeption den Schlüssel zum Raum.
-Weitere Ideen: Usermanagement anschließen, wobei verschiedene Rollen (zB. Hausmeister, Admin, Teamlead, Mitarbeiter, Werkstudent) Zugriffsoptionen auf Räume haben (zB. nur Teamlead kann
+Weitere Todos und Ideen: Interaktion, alle Räume einpflegen,  Usermanagement anschließen, wobei verschiedene Rollen (zB. Hausmeister, Admin, Teamlead, Mitarbeiter, Werkstudent) Zugriffsoptionen auf Räume haben (zB. nur Teamlead kann
 Koferenzraum buchen).
 
 Zunächst wurden alle Räume, Zuordnungen und Ausstattungen festgehalten und ein UML-Diagram wurde erstellt.
 
+Eine erste vereinfachte Version stellt die Datei "Plain" dar.
 
+Es hat eine Klasse Raum.
+Raum hat die Attribute Raumnummer, Typ (z.B. "Büroraum", "Konferenzraum"), Barrierefreiheit und eine Liste von Ausrüstungsgegenständen. Zusätzlich gibt es verfuegbarkeit, was das Datum mit einem Booleschen Wert verbindet, um die Verfügbarkeit des Raums an diesem Tag zu kennzeichnen.
+Wir haben folgende drei Methoden:
+Zunächst gibt zeigeDetails() Informationen über den Raum aus, einschließlich Raumnummer, Typ, Barrierefreiheit und Ausrüstung.
+pruefeVerfuegbarkeit(std::string datum) überprüft, ob der Raum am gegebenen Datum verfügbar ist.
+bucheRaum(std::string datum) setzt die Verfügbarkeit des Raums auf false für das angegebene Datum, um den Raum zu buchen.
 
+Buchungssystem ist auch eine Klasse.
+Es hat als Attribute eine Liste von Räumen.
+Dessen Methoden sind hinzufuegenRaum(const Raum&). Es fügt einen Raum zur Liste hinzu.
+Dann gibt es findeFreienRaum(std::string typ, bool barrierefrei, std::string datum). Diese Methode durchsucht die verfügbaren Räume und gibt den ersten Raum zurück, der den spezifizierten Kriterien entspricht (Raumtyp, Barrierefreiheit, Verfügbarkeit am angegebenen Datum).
 
+Die main-Funktion) erstellt für ein erstes Beispiel zwei Raumobjekte raum1 und raum2 mit spezifischen Eigenschaften.
+Dann wird Buchungssystem und fügt die erstellten Räume hinzu.
+Es versucht, einen Raum zu finden, der den gegebenen Kriterien entspricht, und bucht ihn, falls verfügbar. Zum Schluss wird eine Meldung ausgegeben, ob der Raum gebucht wurde oder nicht.
 
 
 Draft von "alle Räume":
