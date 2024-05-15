@@ -9,7 +9,7 @@ Koferenzraum buchen).
 
 Zunächst wurden alle Räume, Zuordnungen und Ausstattungen festgehalten und ein UML-Diagram wurde erstellt.
 
-Eine erste vereinfachte Version stellt die Datei "Plain" dar.
+Eine erste vereinfachte Version stellt "Plain" dar.
 
 Es hat eine Klasse Raum.
 Raum hat die Attribute Raumnummer, Typ (z.B. "Büroraum", "Konferenzraum"), Barrierefreiheit und eine Liste von Ausrüstungsgegenständen. Zusätzlich gibt es verfuegbarkeit, was das Datum mit einem Booleschen Wert verbindet, um die Verfügbarkeit des Raums an diesem Tag zu kennzeichnen.
